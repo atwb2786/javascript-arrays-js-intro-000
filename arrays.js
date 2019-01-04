@@ -15,3 +15,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
+
+function addElementToEndOfArray(array, element) {
+  const newerBars = [...array, element];
+  return newerBars;
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  
+}
